@@ -27,6 +27,7 @@ export class CreateComponent implements OnInit {
       price: price
     };
     this.shareservice.addShare(dataObj);
+    location.reload();
   }
 
   ngOnInit() {
